@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+<body>
+    <header class="container">
+        <h1 class="title"> STEAM SQUAD SURVEY</h1>
+        <p class="description">what do you think of our FreeCodeCamp videos so far?</p>
+       </header>
+       <main>
+         <form id="survey-form">
+    
+           <label for="name" id="name-label">Please enter your name: </label>
+           <input id="name" type ="text" required placeholder="Charles Dust"> 
+    
+    <hr>
+           <label for="email" id="email-label">Please enter your email: </label>
+           <input id="email" type="email" required placeholder="Charles@IminaInja.com">
+    <hr>
+           <label for="number" id="number-label">Please enter your age: </label>
+           <input id="number" type="number" min="5" max="100" required placeholder="age">
+    <hr>
+           <label for="dropdown"> Cake or Cooffe</label>
+           <select id="dropdown">
+             <option> Cake </options>
+             <option> Coffee </option>
+             </select>
+    <hr>
+           <label> Eggs or milk: </label>
+           <input type="radio" name="radio-group" id="eggs" value="0">
+             <label for="eggs">Eggs</label>
+             <input type="radio" name="radio-group" id="milk" value="1">
+             <label for="milk">Milk</label>
+    <hr>
+             <label> Pancake or Sandwich: </label>
+             <input type="checkbox" value="0" id="Pancake">
+             <label for="Pancake">Pancake </label>
+             <input type="checkbox" value="1" id="Sandwich">
+             <label for="Sandwich">Sandwich</label>
+    <hr>
+            <textarea>
+              please enter your additional comments here:
+    
+              </textarea>
+    <hr>
+    
+           <input id="submit" type="submit">
+         </form>
+       </main>          
+     
+</body>
+</html>
